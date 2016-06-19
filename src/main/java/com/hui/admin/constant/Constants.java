@@ -13,4 +13,7 @@ public class Constants {
 
 	public static final String SESSION_OPERATE_KEY = "operate";
 	public static final String SEESION_OPERATE_MAP_KEY = "operatemap";
+	
+	public static final String NO_INTERCEPTOR_PATH = ".*/((/user/login)|(websocket)).*";	//不对匹配该值的访问路径拦截（正则）
+	public static final String LOGIN = "/login";				//登录地址
 }
